@@ -1,0 +1,7 @@
+{
+  "functions": { "api/*.js": { "maxDuration": 60, "memory": 1024 } },
+  "crons": [
+    { "path": "/api/cron", "schedule": "15 6 * * *" },
+    { "path": "/api/cron", "schedule": "0 8 * * *" }
+  ]
+}
